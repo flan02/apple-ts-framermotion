@@ -1,10 +1,25 @@
-import Image from "next/image";
+import Container from "@/components/Container";
+import Header from "@/components/Header";
+
 
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-rose-700 text-4xl">Hello Ollie!</h1>
-      <p className="text-yellow-400 font-bold">where your father is</p>
-    </main>
+    <>
+      <Header />
+      <main>
+        <div className="h-[300vh]">
+          <Container>Hero component</Container>
+        </div>
+        <div>
+          <Container>usps</Container>
+        </div>
+        <div>
+          <Container>3 col layout</Container>
+        </div>
+        <div>
+          <Container>Carousel with posters</Container>
+        </div>
+      </main>
+    </>
   );
 }
