@@ -1,6 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  :root {
+    --header-row-height: 44px;
+    --header-height: calc(var(--header-row-height) * 2);
+    --hero-height: calc(100svh - var(--header-row-height));
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
 /*
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -26,9 +38,5 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
+
 */

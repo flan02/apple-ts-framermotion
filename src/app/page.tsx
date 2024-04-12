@@ -1,5 +1,8 @@
+import Button from "@/components/Button";
 import Container from "@/components/Container";
 import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import Usps from "@/components/Usps";
 
 
 export default function Home() {
@@ -7,11 +10,9 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <div className="h-[300vh]">
-          <Container>Hero component</Container>
-        </div>
-        <div>
-          <Container>usps</Container>
+        <div className="bg-black">
+          <Hero />
+          <Usps />
         </div>
         <div>
           <Container>3 col layout</Container>
