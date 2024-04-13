@@ -7,7 +7,7 @@ type Props = {}
 
 const Usps = (props: Props) => {
   return (
-    <Container className="relative z-10 text-white text-5xl font-semibold space-y-12 max-w-[750px] pb-24">
+    <Container className="relative z-10 text-white py-36 text-3xl md:text-5xl font-semibold space-y-12 max-w-[750px] pb-24">
       <FadeIn>
         <p className="">New Apple Originals every month - always ad-free.</p>
       </FadeIn>

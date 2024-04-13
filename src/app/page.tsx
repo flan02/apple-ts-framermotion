@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <div className="bg-black">
+        <div className="bg-black relative z-10">
           <Hero />
           <Usps />
         </div>

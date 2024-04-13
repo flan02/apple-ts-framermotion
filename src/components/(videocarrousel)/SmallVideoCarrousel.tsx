@@ -12,7 +12,9 @@ const SmallVideoCarrousel = ({ movies, className }: Props) => {
   // className="relative left-[var(--carousel-offset,0px)]"
   return (
     <div className="overflow-clip">
-      <div className={twMerge("flex gap-3 animate-carousel-move", className)}>
+      <div
+
+        className={twMerge("flex gap-3 animate-carousel-move", className)}>
         {
           movies.map((movie) => (
 
